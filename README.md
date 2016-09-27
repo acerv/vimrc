@@ -1,2 +1,5 @@
-# vimrc
-My VIM configuration
+# My VIM configuration
+
+It contains:
+* .vimrc
+* .vim/
