@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/data/yocto/intel/m46g_acer_lin_vm/sofia-oe-buildsystem/build-m7272upper/mnt/opt/ltp/testcases/bin/datafiles'
-let g:netrw_dirhist_2='/data/yocto/intel/m46g_acer_lin_vm/sofia-oe-buildsystem/build-m7272upper/mnt/opt/ltp/testcases/bin'
-let g:netrw_dirhist_3='/data/yocto/intel/m46g_acer_lin_vm/sofia-oe-buildsystem/build-m7272upper/mnt/opt/ltp/testcases/bin/datafiles'
-let g:netrw_dirhist_4='/home/u-blox/Projects/linux_guide/kernel'
