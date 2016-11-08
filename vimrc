@@ -3,9 +3,6 @@ set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
 
-" set colorscheme
-colorscheme peachpuff
-
 " auto indentation for previous line
 set autoindent
 
@@ -21,7 +18,6 @@ set expandtab
 set textwidth=120
 
 " syntax highlight on
-set t_Co=256
 syntax on
 
 " line number on
@@ -54,9 +50,17 @@ nnoremap gR gD:%s/<C-R>///gc<left><left><left>
 " Load pathogen plugins
 execute pathogen#infect()
 
+" set colorscheme
+set background=dark
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
+"colorscheme peachpuff
+
 " vim-airline plugin setup
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme = 'murmur'
 
 " tagbar plugin setup
 nmap <F8> :TagbarToggle<CR>
