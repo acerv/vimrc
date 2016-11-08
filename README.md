@@ -9,3 +9,5 @@ To install it:
 And then install powerline fonts:
 
     $ sudo apt install fonts-powerline
+
+ ![alt tag](https://raw.githubusercontent.com/acerv/vimrc/master/screenshot.png)
