@@ -56,6 +56,7 @@ execute pathogen#infect()
 
 " vim-airline plugin setup
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " tagbar plugin setup
 nmap <F8> :TagbarToggle<CR>
