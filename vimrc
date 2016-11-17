@@ -37,7 +37,7 @@ map L gt
 map <F4> :e %:p:s,.h$,.X123X,:s,.c$,.h,:s,.X123X$,.c,<CR>
 
 " compile options
-map <F5> :make<CR>
+map <F5> :make!<CR>
 map <F6> :make clean<CR>
 map <F7> <C-]>
 
